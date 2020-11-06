@@ -10,19 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:fx.helloWorld",
-    "onCommand:fx.stripComments"
+    "onCommand:fx.stripBlockComments"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "fx.helloWorld",
-        "title": "Hello World"
-      },
-      {
-        "command": "fx.stripComments",
-        "title": "strip comments"
+        "command": "fx.stripBlockComments",
+        "title": "Strip Block Comments"
       }
     ]
   },
